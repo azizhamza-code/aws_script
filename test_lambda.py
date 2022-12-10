@@ -31,5 +31,5 @@ filter_log_events_output = subprocess.run(
 )
 
 # Print the output of the filter-log-events command
-with open("logs.txt", "w") as f:
-    f.write(filter_log_events_output.stdout.decode())
+"""with open("logs.txt", "w") as f:
+    f.write(filter_log_events_output.stdout.decode())"""
